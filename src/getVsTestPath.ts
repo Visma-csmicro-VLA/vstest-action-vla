@@ -12,5 +12,5 @@ export function getVsTestPath(): string {
     return core.getInput('vstestLocation')
   }
 
-  return path.join(__dirname, 'win-x64/TestPlatform/vstest.console.exe')
+  return path.join(__dirname, 'TestPlatform/vstest.console.exe')
 }

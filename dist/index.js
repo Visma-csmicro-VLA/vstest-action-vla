@@ -1116,7 +1116,7 @@ function getVsTestPath() {
     if (vstestLocationMethod && vstestLocationMethod.toUpperCase() === "LOCATION") {
         return core.getInput('vstestLocation');
     }
-    return path.join(__dirname, 'win-x64/TestPlatform/vstest.console.exe');
+    return path.join(__dirname, 'TestPlatform/vstest.console.exe');
 }
 exports.getVsTestPath = getVsTestPath;
 
